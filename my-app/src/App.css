@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.topNav {
+  font-size: 15px;
+  font-family: 'Segoe UI';
+  margin: 15px;
+  color: #9d9d9d;
+  display: inline-block;
+}
+
+.topNav:hover {
+  color: #fcfcfc;
+}
+
+.songsTitle {
+  color: #fcfcfc;
+  font-size: 20px;
+  font-family: cursive;
+  margin: 30px 30px 5px 30px;
+}
+
+img {
+  border-radius: 20px;
+  width: 350px;
+}
+
+.songTitle {
+  font-weight: bold;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.artist {
+  font-size: 30px;
+  color: #442323;
+}
+
+.songList {
+  display: inline-block;
+}
+
+.selectButton {
+  background-color: #9d9d9d;
+  border: none;
+  color: #010000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.selectButton:hover {
+  background-color: #2d6074;
+  border: 1px solid #1ed760;
+  color: #9d9d9d;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
